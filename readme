@@ -1,1 +1,25 @@
- inceput 
+README PROIECT BAZE DE DATE
+
+Aplicatie de testare
+
+Realizatori proiect:
+
+Nitan Brindusa-Elena
+Janta Corina-Maria
+Martiniuc Bianca-Georgiana
+
+
+
+
+	 Aplicatia noastra are in vedere testarea studentilor, pe grupe de studii, oferindu-le totodata teste cu intrebari afisate in ordine
+ intamplatoare (random). Odata pornita aplicatia, utilizatorul se poate loga in doua feluri, fie ca professor, fie ca student. 	
+  Utilizatorii pot fi doar studentii si profesorii care se afla in baza de date, astfel se impiedica creara unui cont de catre oricine 
+ care nu este membru. Diferenta o face identificarea profesorului prin CNP. Profesorul va avea posibilitatea logarii si apoi selectarii
+ testului pe care doreste sa il dea studentilor. In urma delogarii profesorului se logheaza studentul.
+	 Studentul va realiza testul. Testele sunt cu raspuns unic .Se poate realiza exportul unor rapoarte in format excel si vizualizarea 
+ statisticii cu notele studentilor. Testele pot fi date o singura data, iar fiecare grupa are un test. Fiecare student din grupa primeste
+ testul separate, adica aplicatia stie daca studentul a primit testul sau nu.
+	 Parolele de logare sunt hash-uite cu clasa Encrypter. Saltul il reprezinta un string care se adauga la parola, pentru a-l putea face
+  mai greu de decriptat.
+
+
